@@ -75,6 +75,9 @@ public class FoodValues {
     // Sweets
     public static final FoodProperties POPSICLE = (new FoodProperties.Builder())
             .nutrition(3).saturationMod(0.2f).fast().alwaysEat().build();
+
+    public static final FoodProperties ICE_CREAM = (new FoodProperties.Builder())
+            .nutrition(3).saturationMod(0.2f).fast().build();
     public static final FoodProperties COOKIES = (new FoodProperties.Builder())
             .nutrition(2).saturationMod(0.1f).fast().build();
     public static final FoodProperties CAKE_SLICE = (new FoodProperties.Builder())

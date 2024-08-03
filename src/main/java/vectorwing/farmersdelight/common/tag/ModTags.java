@@ -92,6 +92,8 @@ public class ModTags {
     // Entities that should be able to eat Horse Feed when tame. Defaults to most vanilla mounts, except Pigs and Striders.
     public static final TagKey<EntityType<?>> HORSE_FEED_USERS = modEntityTag("horse_feed_users");
 
+    public static final TagKey<EntityType<?>> FROG_FOOD_USERS = modEntityTag("frog_food_users");
+
     // Entities that should be given a TemptGoal for Horse Feed, allowing players to call them with it.
     public static final TagKey<EntityType<?>> HORSE_FEED_TEMPTED = modEntityTag("horse_feed_tempted");
 
@@ -111,6 +113,7 @@ public class ModTags {
     public static final TagKey<Biome> WILD_RICE_BLACKLIST = modBiomeTag("wild_rice_blacklist");
     public static final TagKey<Biome> WILD_TOMATOES_WHITELIST = modBiomeTag("wild_tomatoes_whitelist");
     public static final TagKey<Biome> WILD_TOMATOES_BLACKLIST = modBiomeTag("wild_tomatoes_blacklist");
+
 
     private static TagKey<Item> modItemTag(String path) {
         return TagKey.create(Registries.ITEM, new ResourceLocation(FarmersDelight.MODID, path));

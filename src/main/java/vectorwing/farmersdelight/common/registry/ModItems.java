@@ -342,6 +342,9 @@ public class ModItems
 			() -> new Item(foodItem(FoodValues.COOKIES)));
 	public static final Supplier<Item> MELON_POPSICLE = registerWithTab("melon_popsicle",
 			() -> new PopsicleItem(foodItem(FoodValues.POPSICLE)));
+
+	public static final Supplier<Item> MAGMA_SORBET = registerWithTab("magma_sorbet",
+			() -> new FrogFoodItem(foodItem(FoodValues.ICE_CREAM)));
 	public static final Supplier<Item> GLOW_BERRY_CUSTARD = registerWithTab("glow_berry_custard",
 			() -> new ConsumableItem(foodItem(FoodValues.GLOW_BERRY_CUSTARD).craftRemainder(Items.GLASS_BOTTLE).stacksTo(16)));
 	public static final Supplier<Item> FRUIT_SALAD = registerWithTab("fruit_salad",
